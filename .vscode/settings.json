@@ -1,0 +1,19 @@
+{
+  "_goldenEval": "以下评测窗口标识由混元智囊团众测模式自动管理",
+  "window.title": "[Golden Eval] [RSS订阅] [测试模型 C]",
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#CC0000",
+    "titleBar.inactiveBackground": "#990000",
+    "titleBar.activeForeground": "#FFFFFF",
+    "titleBar.inactiveForeground": "#FFFFFF",
+    "statusBarItem.errorBackground": "#CC0000",
+    "statusBarItem.errorForeground": "#FFFFFF",
+    "statusBarItem.errorHoverBackground": "#990000"
+  },
+  "codebuddyReplay.goldenEvalLane": {
+    "batchId": "add38be4-62a8-4a06-8fc3-b9613f773f3c",
+    "laneId": "ad12e54f-f01b-475d-b51f-4ad1d928a7b1",
+    "modelKey": "C",
+    "modelName": "测试模型 C"
+  }
+}

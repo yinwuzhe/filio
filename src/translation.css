@@ -1,0 +1,168 @@
+.reader-actions .translate-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 31px;
+  padding: 0 9px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  font-size: 11px;
+  white-space: nowrap;
+  color: var(--accent);
+  background: var(--soft);
+}
+.reader-actions .translate-button:hover {
+  background: var(--accent-light);
+}
+.reader-actions .translate-button.active {
+  background: var(--accent-light);
+  border-color: var(--accent);
+}
+.translation-banner {
+  padding: 10px 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--accent-light);
+  border-bottom: 1px solid var(--line);
+  color: var(--accent);
+  font-size: 11px;
+  line-height: 1.65;
+  flex-shrink: 0;
+}
+.translation-banner > span {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.translation-banner button {
+  font-size: 11px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  white-space: nowrap;
+}
+.translation-banner.is-error {
+  background: var(--soft);
+  color: #b46449;
+}
+.reading-content[lang="zh-CN"] > h1 {
+  font-family: "Songti SC", "Noto Serif CJK SC", serif;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+.reading-content[lang="zh-CN"] .article-body {
+  font-family: "Songti SC", "Noto Serif CJK SC", Georgia, serif;
+  line-height: 2;
+  letter-spacing: 0.02em;
+}
+.translation-settings-title {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+.translation-settings-title h3 {
+  font-size: 16px;
+  margin: 0;
+}
+.translation-settings-title > span {
+  margin-left: auto;
+  font-size: 10px;
+  color: var(--muted);
+}
+.translation-help {
+  font-size: 12px;
+  line-height: 1.9;
+  color: var(--secondary);
+  margin: 0 0 21px;
+}
+.translation-settings .modal-input {
+  margin-bottom: 16px;
+}
+.translation-field-hint {
+  margin: -7px 0 18px;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.7;
+}
+.translation-key-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 8px;
+  color: var(--accent);
+  font-size: 10px;
+}
+.translation-privacy {
+  display: flex;
+  gap: 9px;
+  background: var(--soft);
+  border-radius: 6px;
+  padding: 12px;
+  color: var(--secondary);
+  margin-bottom: 15px;
+}
+.translation-privacy svg {
+  margin-top: 3px;
+  color: var(--accent);
+}
+.translation-privacy p {
+  margin: 0;
+  font-size: 10px;
+  line-height: 1.9;
+}
+.translation-consent {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  margin: 0 0 20px;
+  font-size: 11px;
+  line-height: 1.8;
+  cursor: pointer;
+  color: var(--secondary);
+}
+.translation-consent input {
+  flex-shrink: 0;
+  margin: 4px 0 0;
+  accent-color: var(--accent);
+}
+.translation-success {
+  display: flex;
+  gap: 7px;
+  align-items: flex-start;
+  font-size: 11px;
+  line-height: 1.8;
+  color: var(--accent);
+}
+.translation-success svg {
+  margin-top: 3px;
+}
+.translation-clear {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+@media (max-width: 1200px) {
+  .reader-actions .translate-button {
+    width: 31px;
+    padding: 0;
+  }
+  .translate-button > span {
+    display: none;
+  }
+}
+@media (max-width: 680px) {
+  .translation-banner {
+    padding: 9px 15px;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .translation-banner > span {
+    min-width: 180px;
+  }
+  .reader-source {
+    max-width: 95px;
+  }
+}

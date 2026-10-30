@@ -1,0 +1,267 @@
+html[data-platform="android"] {
+  overscroll-behavior: none;
+}
+.android-app {
+  min-height: 0;
+}
+.android-app .window-bar {
+  height: 14px;
+}
+.android-app .traffic-light,
+.android-app .window-grip,
+.android-app kbd,
+.android-app .keyboard-hint,
+.android-app .footer-dot,
+.android-app .shortcut-grid {
+  display: none;
+}
+.android-app .brand {
+  margin-top: 12px;
+}
+.android-app .sidebar {
+  padding-bottom: 8px;
+}
+.android-app .icon-button {
+  width: 44px;
+  height: 44px;
+}
+.android-app .nav-item {
+  min-height: 46px;
+  font-size: 14px;
+}
+.android-app .feed-item {
+  min-height: 44px;
+  font-size: 13px;
+}
+.android-app .group-heading {
+  min-height: 36px;
+  font-size: 12px;
+}
+.android-app .group-heading button {
+  min-height: 36px;
+}
+.android-app .group-heading > button:first-child {
+  width: 26px;
+}
+.android-app .add-feed-button {
+  min-height: 44px;
+  font-size: 13px;
+}
+.android-app .sidebar-bottom-row .icon-button {
+  width: 44px;
+  height: 44px;
+}
+.android-app .sync-status {
+  min-height: 44px;
+  font-size: 11px;
+}
+.android-app .section-label {
+  height: 40px;
+}
+.android-app .section-label .icon-button {
+  height: 40px;
+  width: 40px;
+}
+.android-app .list-heading h1 {
+  font-size: 22px;
+}
+.android-app .list-header {
+  padding: 12px 18px 0;
+}
+.android-app .search-field {
+  min-height: 44px;
+}
+.android-app .search-field input {
+  font-size: 14px;
+}
+.android-app .list-controls {
+  min-height: 65px;
+}
+.android-app .segmented-control button {
+  min-height: 36px;
+  font-size: 12px;
+}
+.android-app .list-control-actions .icon-button {
+  width: 42px;
+}
+.android-app .list-heading .mobile-menu {
+  width: 40px;
+}
+.android-app .article-card {
+  padding: 18px 20px;
+}
+.android-app .article-card-content h2 {
+  font-size: 15px;
+}
+.android-app .article-card-content p {
+  font-size: 12px;
+}
+.android-app .article-source {
+  font-size: 11px;
+}
+.android-app .article-card-footer {
+  font-size: 10px;
+}
+.android-app .reader-toolbar {
+  min-height: 60px;
+  height: 60px;
+  padding: 0 8px;
+  gap: 0;
+}
+.android-app .reader-toolbar-left > .feed-icon,
+.android-app .reader-source,
+.android-app .reader-toolbar-left > .muted,
+.android-app .reader-context {
+  display: none;
+}
+.android-app .reader-actions {
+  gap: 0;
+}
+.android-app .reader-actions .translate-button {
+  height: 44px;
+  width: 40px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+.android-app .translate-button > span {
+  display: none;
+}
+.android-app .toolbar-divider {
+  margin: 0 3px;
+}
+.android-app .reader-actions .icon-button {
+  width: 40px;
+}
+.android-app .reader-back {
+  display: inline-flex;
+}
+.android-app .reader-footer {
+  min-height: 46px;
+  font-size: 10px;
+}
+.android-app .reader-pagination .icon-button {
+  height: 44px;
+  width: 44px;
+}
+.android-app .reader-pagination > span {
+  margin-right: 2px;
+}
+.android-app .list-footer {
+  min-height: 40px;
+  font-size: 9px;
+}
+.android-app .reading-content {
+  padding: 27px 22px;
+}
+.android-app .reading-content > h1 {
+  font-size: 31px;
+}
+.android-app .article-body {
+  font-size: var(--reading-font-size);
+}
+.android-app .popover {
+  top: 48px;
+}
+.android-app .action-popover > button {
+  min-height: 46px;
+  font-size: 13px;
+}
+.android-app .font-sizes > button {
+  min-width: 36px;
+  min-height: 40px;
+}
+.android-app .modal {
+  max-height: calc(100dvh - 24px);
+  padding: 23px;
+}
+.android-app .modal-backdrop {
+  padding: 12px;
+}
+.android-app .modal-input {
+  height: 46px;
+}
+.android-app .modal-input input {
+  font-size: 14px;
+}
+.android-app select {
+  min-height: 44px;
+  font-size: 12px;
+}
+.android-app .primary-button,
+.android-app .secondary-button,
+.android-app .danger-button {
+  min-height: 44px;
+}
+.android-app .manage-feed .icon-button {
+  height: 44px;
+  width: 40px;
+}
+.android-app .settings-manage {
+  min-height: 46px;
+}
+.android-app .text-button {
+  min-height: 36px;
+  font-size: 12px;
+}
+.android-app .translation-banner {
+  padding: 9px 15px;
+  font-size: 11px;
+}
+.android-app .translation-banner button {
+  min-height: 32px;
+}
+.android-app .toast {
+  bottom: 58px;
+}
+@media (max-width: 899px) {
+  .android-app,
+  .android-app.focus-mode {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .android-app .article-panel {
+    display: flex;
+    border: none;
+  }
+  .android-app .reader-panel {
+    display: none;
+  }
+  .android-app.mobile-reading .article-panel,
+  .android-app.focus-mode .article-panel {
+    display: none;
+  }
+  .android-app.mobile-reading .reader-panel,
+  .android-app.focus-mode .reader-panel {
+    display: flex;
+  }
+  .android-app .sidebar {
+    position: fixed;
+    width: min(290px, 85vw);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    z-index: 50;
+  }
+  .android-app.sidebar-open .sidebar {
+    transform: translateX(0);
+  }
+  .android-app .mobile-menu {
+    display: inline-flex;
+  }
+}
+@media (max-width: 370px) {
+  .android-app .reader-actions .icon-button,
+  .android-app .reader-actions .translate-button {
+    width: 37px;
+  }
+  .android-app .reader-toolbar-left .icon-button {
+    width: 40px;
+  }
+  .android-app .reader-toolbar {
+    padding: 0 4px;
+  }
+  .android-app .setting-row {
+    flex-wrap: wrap;
+  }
+}

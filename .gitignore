@@ -1,0 +1,27 @@
+node_modules/
+dist/
+release/
+*.log
+*.tsbuildinfo
+.DS_Store
+android/local.properties
+android/.gradle/
+android/**/build/
+android/capacitor-cordova-android-plugins/
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+*.jks
+*.keystore
+
+# Local development data and credentials
+.codebuddy/
+.desktop-check-profile/
+.env
+.env.*
+!.env.example
+translation-config.enc*
+*.pem
+*.key
+*.p12
+*.pfx
